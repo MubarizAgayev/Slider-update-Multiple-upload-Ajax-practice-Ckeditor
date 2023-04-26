@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container" style="margin-left:300px;margin-top:100px">
+
+    <a class="btn btn-success text-white" asp-action="Create" style="float:right">Create</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+            {
+                <tr>
+                    <th>
+                        @Html.Raw(category.Name)
+                    </th>
+                    <td>
+                        <a class="btn btn-outline-info" asp-action="Detail" asp-route-id="@category.Id">Info</a>
+                        <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@category.Id">Edit</a>
+                        <form style="display:inline-block;" id="category-delete-form" data-id="@category.Id">
+                            <button type="submit" class="btn btn-outline-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
