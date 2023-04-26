@@ -65,5 +65,37 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return BadRequest();
+
+            Expert expert = await _context.Experts.FirstOrDefaultAsync(m => m.Id == id);
+
+            if (expert is null) return NotFound();
+
+            string path = FileHelper.GetFilePath(_env.WebRootPath, "img", expert.Image);
+
+            FileHelper.DeleteFile(path);
+
+            _context.Experts.Remove(expert);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return BadRequest();
+
+            Expert expert = await _context.Experts.FirstOrDefaultAsync(m => m.Id == id);
+
+            if (expert is null) return NotFound();
+
+            return View(expert);
+        }
     }
 }

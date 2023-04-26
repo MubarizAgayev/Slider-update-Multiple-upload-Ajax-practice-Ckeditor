@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tMJgHhQpM+olIknEsJF2G6NrbaCwudw/qfLCT4Us2cE=",
+  "Hash": "px1AwGtjW/9K/MUkxBhGtVyu6VoyTGbwV5vMdFOx6HI=",
   "Source": "EntityFramework-Slider",
   "BasePath": "_content/EntityFramework-Slider",
   "Mode": "Default",
@@ -8653,23 +8653,6 @@
       "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
     },
     {
-      "Identity": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\BackEnd\\Slider update, Multiple upload, Ajax practice, Ckeditor\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\4296434a-7940-4947-afa0-b7f9aa9b0403_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg",
-      "SourceId": "EntityFramework-Slider",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\BackEnd\\Slider update, Multiple upload, Ajax practice, Ckeditor\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
-      "BasePath": "_content/EntityFramework-Slider",
-      "RelativePath": "img/4296434a-7940-4947-afa0-b7f9aa9b0403_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\4296434a-7940-4947-afa0-b7f9aa9b0403_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg"
-    },
-    {
       "Identity": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\BackEnd\\Slider update, Multiple upload, Ajax practice, Ckeditor\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\567ba67e-6210-4966-8f8f-a39ba03c7172_314129.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -8685,23 +8668,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\567ba67e-6210-4966-8f8f-a39ba03c7172_314129.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\BackEnd\\Slider update, Multiple upload, Ajax practice, Ckeditor\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\85bfb7e5-c323-42ea-b73c-81830c82657e_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg",
-      "SourceId": "EntityFramework-Slider",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\BackEnd\\Slider update, Multiple upload, Ajax practice, Ckeditor\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
-      "BasePath": "_content/EntityFramework-Slider",
-      "RelativePath": "img/85bfb7e5-c323-42ea-b73c-81830c82657e_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\85bfb7e5-c323-42ea-b73c-81830c82657e_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\BackEnd\\Slider update, Multiple upload, Ajax practice, Ckeditor\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\blog-feature-img-1.jpg",

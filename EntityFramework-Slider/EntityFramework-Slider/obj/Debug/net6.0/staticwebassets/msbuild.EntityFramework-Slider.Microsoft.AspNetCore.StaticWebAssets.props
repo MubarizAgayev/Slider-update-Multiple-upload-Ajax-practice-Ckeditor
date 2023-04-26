@@ -8112,22 +8112,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\EntityFramework-Slider.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\4296434a-7940-4947-afa0-b7f9aa9b0403_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EntityFramework-Slider</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EntityFramework-Slider</BasePath>
-      <RelativePath>img/4296434a-7940-4947-afa0-b7f9aa9b0403_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\4296434a-7940-4947-afa0-b7f9aa9b0403_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\567ba67e-6210-4966-8f8f-a39ba03c7172_314129.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EntityFramework-Slider</SourceId>
@@ -8143,22 +8127,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\567ba67e-6210-4966-8f8f-a39ba03c7172_314129.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\85bfb7e5-c323-42ea-b73c-81830c82657e_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EntityFramework-Slider</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EntityFramework-Slider</BasePath>
-      <RelativePath>img/85bfb7e5-c323-42ea-b73c-81830c82657e_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\85bfb7e5-c323-42ea-b73c-81830c82657e_Cool-Harry-Potter-Wallpaper-for-Desktop.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\blog-feature-img-1.jpg))">
       <SourceType>Package</SourceType>
